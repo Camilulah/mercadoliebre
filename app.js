@@ -21,6 +21,10 @@ app.get('/login', function (req, res){
     res.sendFile((__dirname + '/views/login.html'));
 })
 
+app.get('/', function (req, res){
+    res.sendFile((__dirname + '/views/home.html'));
+})
+
 app.listen(process.env.PORT || 3000, function() {
     console.log("Servidor corriendo, marvel mejor que dc");
 })
