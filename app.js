@@ -21,6 +21,6 @@ app.get('/login', function (req, res){
     res.sendFile((__dirname + '/views/login.html'));
 })
 
-app.listen(3000, () => {
-    console.log('Servidor funcionando');
-});
+app.listen(process.env.PORT || 3000, function() {
+    console.log("Servidor corriendo, marvel mejor que dc");
+})
