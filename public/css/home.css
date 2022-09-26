@@ -1,0 +1,302 @@
+body {
+    background-color: #ebebeb;
+    font-family: Roboto;
+}
+
+
+/* TABLETS */
+@media ((min-width: 361px) and (max-width: 768px)) {
+    article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  nav ul li {
+    display: none;
+  }
+  #lupa {
+    display: none;
+  }
+
+
+
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    article{
+        box-shadow: none;}
+    .burger-menu {
+        display: none;
+    }
+    }
+
+nav {
+    background-color: #EAC926;
+    width: 100%;
+    padding: 1%;
+    font-weight: bold;
+    
+}
+
+.tophead {
+    display: flex;
+    flex-direction: row;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#logo {
+    width: 20%;
+    height: 50px;
+}
+
+#busqueda-input {
+   height: 39px;
+   width: 90%;
+   border: none;
+   padding: 1%;
+   
+}
+
+
+#lupa {
+    height: 39px;
+    float: right;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-left: solid 1px #ebebeb;
+}
+
+#caja-busqueda{
+    width: 50%;
+    height: 39px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+#banner {
+    width: 100%;
+
+}
+
+main {   
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+article{
+    box-sizing: border-box;
+    width: 250px;
+    background-color: white;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+main img {
+    max-width: 100%;
+}
+
+
+.s-ultima-visita , .s-ofertas {
+    
+}
+
+.s-titulo {
+    font-size: 24px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #666;
+    text-align: left;
+}
+
+p.precios {
+    font-size: 18px;
+    width: 30%;
+}
+
+.c-texto {
+    font-size: 12px;
+}
+
+.descuentos {
+    color: #39b54a;
+    width: 70%;
+}
+
+.descripciones{
+    color: #666;
+    margin-top: 15px;
+}
+
+.descuentos , .precios {
+    display: inline;
+    font-weight: bold;
+}
+
+.descuentos , .descripciones {
+    font-size: 16px;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    color: #666;
+    margin-bottom: 0;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.f-section {
+
+}
+
+.footdiv{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+.copy {
+    border-top: solid 1px #ebebeb;
+    padding: 1px;
+}
+
+.fa-credit-card , .fa-gift , .fa-user-shield {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+#ico-envio {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+.info-p {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    color: white;
+    font-size: 25px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+.ul-nav , .ul-cuenta {
+    list-style: none;
+    display: inline-flex;
+}
+
+.ul-nav li {
+    float: left;
+    padding:18px;
+}
+
+.ul-cuenta , .ul-cuenta li {
+    float: right; 
+}
+
+.ul-cuenta li {
+    padding: 18px;
+}
+
+.caja-general {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
+    padding: 15px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.i-first {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main input {
+    margin: 12px;
+    height: 40px;
+    padding: 12px;
+}
+
+.p-usuario {
+    display: inline-flex;
+}
+
+.intereses {
+    display: inline-flex;
+}
+
+.r-s {
+    margin-top: 5%;
+}
+
+.passw , .i-first {
+    width: 100%;
+}
+
+.r-titulo {
+    text-align: center;
+}
+
+.r-but {
+    text-align: center;
+    font-size: 15px;
+    padding: 12px;
+    background-color:#EAC926;
+    border: none;
+    color: white;
+}
